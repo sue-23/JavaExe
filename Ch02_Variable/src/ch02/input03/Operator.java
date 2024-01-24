@@ -16,14 +16,12 @@ public class Operator {
 		System.out.print("1 >>");
 		num1 = sc.nextInt();
 		
-		System.out.println("2 >>");
+		System.out.print("2 >>");
 		num2 = sc.nextInt();
 		
 		//결과 계산
 		result = num1 +num2;
 		System.out.println("결과는" + result);
-		
-		
 		
 		
 		//키보드 연결 종료
