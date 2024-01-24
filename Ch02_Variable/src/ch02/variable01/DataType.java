@@ -4,11 +4,11 @@ public class DataType {
 
 	public static void main(String[] args) {
 
-		int num =100;
-		double dnum = 3.14;
-		char ch = 'a';
-		String name ="조수연";
-		boolean isRun = true;
+		int num =100; //정수
+		double dnum = 3.14;//실수
+		char ch = 'a';//문자
+		String name ="조수연";//문자열
+		boolean isRun = true;//참거짓
 		String str = "a";
 		
 		System.out.println(num);
@@ -18,10 +18,7 @@ public class DataType {
 		System.out.println(isRun);
 		System.out.println(str);
 		
-				
-				
-		
-		
+			
 	}
 
 }
