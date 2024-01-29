@@ -1,5 +1,6 @@
 package ch05.array04;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 //
@@ -19,6 +20,8 @@ public class Resolve5 {
 			sum +=num[i];
 			
 		}
+		System.out.println(Arrays.toString(num)+".");
+		
 		System.out.println("총합:"+sum);
 	}
 

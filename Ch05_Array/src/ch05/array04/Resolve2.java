@@ -9,7 +9,7 @@ public class Resolve2 {
 		String[] names = { "슈", "셰", "쥬", "벨", "정", "사", "더", "엔", "테", "진" };
 
 		for(int i = 0;i<names.length;i++) {
-			System.out.println(names[names.length-1-i]+"");
+			System.out.println(names[names.length-1-i]+",");
 			
 		}
 		
@@ -23,12 +23,22 @@ public class Resolve2 {
 		System.out.println(Arrays.toString(cnames));
 
 	}
+	public static void method3() {
+		String[] names = { "슈", "셰", "쥬", "벨", "정", "사", "더", "엔", "테", "진" };
+		
+		for (int k = names.length-1; k>0; k--) {
+			names[k] = names[k];
+		}
+		System.out.println(Arrays.toString(names));
+
+	}
 	
 	public static void main(String[] args) {
 		
 
 		//method1();
 		method2();
+//		method3();
 	}
 
 }

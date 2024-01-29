@@ -17,8 +17,14 @@ public class Resolve3 {
 			sum += scores[i];
 		}
 		System.out.println("총점은:"+sum);
-		System.out.println("평균은:"+sum/scores.length);
+		System.out.println("평균은:"+(double)sum/scores.length);
 		
+	}
+	
+	public static void method() {
+		for(int i = 0; i<7;i++) {
+			
+		}
 	}
 
 }

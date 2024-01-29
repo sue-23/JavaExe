@@ -8,7 +8,8 @@ public class Resolve1 {
 	
 	public static void main(String[] args) {
 		int[] num = {2,44,1,0,5};
-		Arrays.sort(num);
+		Arrays.sort(num); //오름차순 정렬
+		
 		
 		System.out.println("최댓값:"+num[4]);
 		System.out.println("최솟값:"+num[0]);

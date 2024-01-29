@@ -8,19 +8,40 @@ import java.util.Arrays;
 public class Resolve4 {
 	public static void main(String[] args) {
 		int[] num = new int[10];
-		
 
 		for (int i = 0; i < num.length; i++) {
-			num[i] = (i + 1) * 3;	
+			num[i] = (i + 1) * 3;
 		}
-		
-		//int [] cnum = {num[9],num[8],num[7],num[6],num[5],num[4],num[3],num[2],num[1],num[0]};
+
+		// int [] cnum =
+		// {num[9],num[8],num[7],num[6],num[5],num[4],num[3],num[2],num[1],num[0]};
 		int[] cnum = new int[10];
-		for (int k = 0;k<cnum.length;k++) {
-			cnum[k] = num[9-k];
+		for (int k = 0; k < cnum.length; k++) {
+			cnum[k] = num[9 - k];
 		}
 		System.out.println(Arrays.toString(cnum));
 
+	}
+
+	public static void method1() {
+
+		int[] num = new int[10];
+		for (int i = 0; i < num.length; i++) {
+			num[i] = (i + 1) * 3;
+		}
+		for(int i=num.length;i<=0;i--) {
+			System.out.println(num[i]+" ");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
