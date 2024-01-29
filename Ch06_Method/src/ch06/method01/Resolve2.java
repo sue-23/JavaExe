@@ -18,6 +18,7 @@ public class Resolve2 {
 		}
 
 	}
+	
 
 	public static void main(String[] args) {
 

@@ -15,7 +15,7 @@ public class Resolve5 {
 
 	public static void star(int num) {
 		for(int j=1;j<=num;j++) {
-			for(int i=0;i<j;i++) {
+			for(int i=1;i<=j;i++) {
 				System.out.print("*");
 			}
 			System.out.println();
