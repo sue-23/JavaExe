@@ -23,6 +23,7 @@ public class Resolve1 {
 		}else
 			System.out.println("작은값은>>"+b);
 	}
+	
 	public static void main(String[] args) {
 
 		int a;//첫번째 숫자

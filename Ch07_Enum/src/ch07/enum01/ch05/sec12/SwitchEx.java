@@ -17,19 +17,19 @@ public class SwitchEx {
 		//sel의 값과 같은 case로 이동하여 실행하고 break를 만나면 switch 문 종료
 		
 		switch(sel) {
-		case 1:
+		case Menu.ZZA:
 			System.out.println("짜장");
 			break;
-		case 2:
+		case Menu.ZZAM:
 			System.out.println("B");
 			break;
-		case 3:
+		case Menu.Tang:
 			System.out.println("C");
 			break;
-		case 4:
+		case Menu.You:
 			System.out.println("D");
 			break;
-		case 5:
+		case Menu.YOUL:
 			System.out.println("E");
 			break;
 			
