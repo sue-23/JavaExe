@@ -13,9 +13,8 @@ public class Add {
 	
 	int a, b;
 	
-	public Add(int a, int b){
-		this.a = a;
-		this.b = b;
+	public Add(){
+		
 	}
 	public void setValue(int _a, int _b) {
 		a = _a;
