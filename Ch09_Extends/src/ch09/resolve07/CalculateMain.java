@@ -7,5 +7,17 @@ public class CalculateMain {
 		add.setValue(5, 2);
 		System.out.println(add.calculate());
 		
+		Sub sub = new Sub();
+		sub.setValue(5, 2);
+		System.out.println(sub.calculate());
+		
+		Mul mul = new Mul();
+		mul.setValue(5, 2);
+		System.out.println(mul.calculate());
+		
+		Div div = new Div();
+		div.setValue(5, 2);
+		System.out.println(div.calculate());
+		
 	}
 }
