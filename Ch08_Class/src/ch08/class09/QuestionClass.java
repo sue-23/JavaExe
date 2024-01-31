@@ -102,7 +102,8 @@ public static int getSelectMenu(Scanner sc) {
 
 // 1번 문제에 대한 풀이
 public static void answer1(Scanner sc) {
-
+	MartMain answer1 = new MartMain();
+	answer1.main(null);
 	
 	
 }
