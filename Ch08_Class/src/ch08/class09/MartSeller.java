@@ -1,6 +1,5 @@
 package ch08.class09;
 
-
 public class MartSeller {
 	private int numOfPear;//총 배개수
 	private int saleMoney;//판매금액
@@ -9,6 +8,7 @@ public class MartSeller {
 	public MartSeller(int num) {
 		this.numOfPear=num;
 	}
+	
 	public int sale(int money) {
 		int num = money/PRICE; //고객이 구매한 배 개수
 		numOfPear-=num; //남은 배 개수

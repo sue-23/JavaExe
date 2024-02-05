@@ -103,11 +103,15 @@ public static int getSelectMenu(Scanner sc) {
 // 1번 문제에 대한 풀이
 public static void answer1(Scanner sc) {
 
+	CalculateMain answer1 = new CalculateMain();
+	answer1.main(null);
 }
 
 // 2번 문제에 대한 풀이
 public static void answer2(Scanner sc) {
 
+	TriangleMain answer2 = new TriangleMain();
+	answer2.main(null);
 }
 
 // 3번 문제에 대한 풀이
@@ -171,8 +175,3 @@ public static void main(String[] args) {
 	sc.close();
 }
 }
-
-
-
-
-

@@ -1,6 +1,5 @@
 package ch08.class09;
 
-
 public class MartBuyer {
 
 	private int money; //구매자가 낸 돈
@@ -10,6 +9,7 @@ public class MartBuyer {
 		this.money = money;
 		this.numOfPear = 0;
 	}
+	
 	public void buyApple(MartSeller seller, int money) {
 		this.numOfPear += seller.sale(money);
 		this.money -= money;
@@ -19,5 +19,4 @@ public class MartBuyer {
 		System.out.println("현재 잔액: "+money);
 		System.out.println("배 개수"+numOfPear);
 	}
-	
 }
